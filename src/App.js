@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import { Component } from 'react';
+import './index.css';
+import Title from './components/Title';
+import Icon from './components/Icon';
+import Navbar from './components/Navbar';
+import Sitemap from './components/Sitemap';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      section: "news"
+    }
+  }
+
+  render() {
+    return (
+      <main className="App">
+        <header>
+          <Icon />
+          <Title name="diablo 2 remastered" />
+          <Navbar />
+        </header>        
+        <section>
+          Test
+        </section>
+        <footer>
+          <Sitemap />
+          <Footer />
+        </footer>
+      </main>
+    );
+  }  
 }
 
 export default App;
