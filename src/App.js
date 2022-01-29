@@ -1,17 +1,23 @@
 import { Component } from 'react';
 import './index.css';
+import './css/basics.css';
 import Title from './components/Title';
 import Icon from './components/Icon';
 import Navbar from './components/Navbar';
 import Sitemap from './components/Sitemap';
 import Footer from './components/Footer';
+import Section from './components/Section';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      section: "news"
+      active: "faq"
     }
+  }
+
+  onClick = link => {
+    this.setState({ active: link.target.id });
   }
 
   render() {
@@ -20,10 +26,10 @@ class App extends Component {
         <header>
           <Icon />
           <Title name="diablo 2 remastered" />
-          <Navbar />
+          <Navbar content={this.state.active} onClick={this.onClick} />
         </header>        
         <section>
-          Test
+          <Section active={this.state.active} />
         </section>
         <footer>
           <Sitemap />

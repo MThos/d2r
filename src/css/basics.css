@@ -1,0 +1,132 @@
+a {
+  color: rgb(245, 32, 32);
+  font-weight: 600;
+  outline: none !important;
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+  cursor: pointer;
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.active {
+  color: white;
+  font-weight: 800;
+}
+
+.active::before {
+  content: '[';
+}
+
+.active::after {
+  content: ']';
+}
+
+.basics {
+  background: #101010;
+  border: 4px solid black;
+  margin: 0 auto 10px auto;
+  width: 99%;
+}
+
+.basics-body {
+  background: #101010;
+  font-size: 1.1rem;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.basics-body a {
+  background: rgb(245, 32, 32);
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 2px 5px;
+}
+
+.basics-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.basics-header {
+  background: rgb(245, 32, 32);
+  border-bottom: 4px solid black;
+  font-weight: bold;
+  font-size: 1.3rem;
+  overflow: hidden;
+  padding: 7px 10px;
+}
+
+.basics-important {
+  background: rgb(245, 32, 32);
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 1px 5px;
+}
+
+.basics-link {
+  cursor: pointer;
+  font-family: 'Share Tech Mono';
+  flex-basis: 20%;
+  text-decoration: none;
+  text-align: center;
+}
+
+#basics-nav {
+  background: #101010;
+  border: 4px solid gray;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.1rem;
+  gap: 10px;
+  justify-content: space-evenly;
+  margin: 0 auto 40px auto;
+  padding: 25px 0;
+  width: 80%;
+}
+
+.chart {
+  border-collapse: collapse;
+  text-align: center;
+  width: 45%;
+}
+
+.chart-lg {
+  margin: 0 auto;
+  width: 85% !important;
+}
+
+.chart td {
+  border: 1px solid black;
+  color: white;
+  padding: 5px 20px;
+}
+
+.chart th {
+  background: black;
+  color: white;
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
+.chart tr {
+  border: 2px solid black;
+}
+
+.chart tr:nth-child(odd) {
+  background: #202020;
+}
+
+.item-text-color {
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 600;
+  padding: 5px 10px;
+  text-align: center;
+  width: 80px;
+}

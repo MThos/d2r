@@ -1,0 +1,57 @@
+const ExpBelow25 = 
+[
+  {
+    "level_diff": "10 to 99",
+    "exp": "2%"
+  },
+  {
+    "level_diff": "10",
+    "exp": "2%"
+  },
+  {
+    "level_diff": "9",
+    "exp": "15%"
+  },
+  {
+    "level_diff": "8",
+    "exp": "36%"
+  },
+  {
+    "level_diff": "7",
+    "exp": "68%"
+  },
+  {
+    "level_diff": "6",
+    "exp": "88%"
+  },
+  {
+    "level_diff": "1 to 5",
+    "exp": "100%"
+  },
+  {
+    "level_diff": "(-5) to 1",
+    "exp": "100%"
+  },
+  {
+    "level_diff": "(-6)",
+    "exp": "81%"
+  },
+  {
+    "level_diff": "(-7)",
+    "exp": "62%"
+  },
+  {
+    "level_diff": "(-8)",
+    "exp": "43%"
+  },
+  {
+    "level_diff": "(-9)",
+    "exp": "24%"
+  },
+  {
+    "level_diff": "(-10) to (-99)",
+    "exp": "5%"
+  }
+];
+
+export default ExpBelow25;

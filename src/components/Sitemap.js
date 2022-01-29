@@ -11,7 +11,7 @@ class Sitemap extends Component {
                 <a className="sitemap-link" href="/monsters">Monsters</a>
                 <a className="sitemap-link" href="/npcs">NPCs</a>
                 <a className="sitemap-link" href="/quests">Quests</a>
-                <a className="sitemap-link" href="/basics">Basics</a>
+                <a className="sitemap-link" href="/basics">FAQ</a>
                 <a className="sitemap-link" href="/cookies">Cookies</a>
                 <a className="sitemap-link" href="https://github.com/MThos/d2remastered" target="_blank">Github</a>
                 <a className="sitemap-link" href="/about">About</a>
