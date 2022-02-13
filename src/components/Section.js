@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Faq from './Faq';
+import Classes from './Classes';
 
 class Section extends Component {
     render() {
@@ -9,6 +10,10 @@ class Section extends Component {
             return (
                 <Faq active="basics" />
             );
+        } else if (active === "classes") {
+            return (
+                <Classes />
+            )
         }
     }
 }

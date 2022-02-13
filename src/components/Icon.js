@@ -4,7 +4,7 @@ class Icon extends Component {
     render() {
         return (
             <div id="icon">
-                <img src="\images\d2.png" alt="The Lord of Terror" />
+                <img src="/images/core/d2.png" alt="The Lord of Terror" />
             </div>
         );
     }

@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import './index.css';
 import './css/basics.css';
+import './css/classes.css';
 import Title from './components/Title';
 import Icon from './components/Icon';
 import Navbar from './components/Navbar';
@@ -12,7 +13,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      active: "faq"
+      active: "classes"
     }
   }
 
@@ -32,7 +33,7 @@ class App extends Component {
           <Section active={this.state.active} />
         </section>
         <footer>
-          <Sitemap />
+          <Sitemap onClick={this.onClick} />
           <Footer />
         </footer>
       </main>

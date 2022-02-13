@@ -11,14 +11,41 @@ body {
 
 .App {
   align-items: stretch;
-  border-left: 4px solid gray;
-  border-right: 4px solid gray;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   min-height: 100vh !important;
   max-width: 65vw;
   text-align: left;
+}
+
+a {
+  color: rgb(245, 32, 32);
+  font-weight: 600;
+  outline: none !important;
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+  cursor: pointer;
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.active {
+  color: white !important;
+  font-weight: 800;
+}
+
+.active::before {
+  content: '[';
+}
+
+.active::after {
+  content: ']';
 }
 
 .bold {

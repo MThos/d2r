@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import Basics from './sub-components/Basics';
-import Experience from './sub-components/Experience';
-import Resistances from './sub-components/Resistances';
-import Difficulty from './sub-components/Difficulty';
-import Gambling from './sub-components/Gambling';
-import Hirelings from './sub-components/Hirelings';
-import Attributes from './sub-components/Attributes';
-import Realm from './sub-components/Realm';
-import PVP from './sub-components/PVP';
-import Controls from './sub-components/Controls';
-import Hardcore from './sub-components/Hardcore';
-import Trading from './sub-components/Trading';
-import Ubers from './sub-components/Ubers';
-import Parties from './sub-components/Parties';
-import D2R from './sub-components/D2R';
-import Patches from './sub-components/Patches';
+import Basics from './sub-components/faq/Basics';
+import Experience from './sub-components/faq/Experience';
+import Resistances from './sub-components/faq/Resistances';
+import Difficulty from './sub-components/faq/Difficulty';
+import Gambling from './sub-components/faq/Gambling';
+import Hirelings from './sub-components/faq/Hirelings';
+import Attributes from './sub-components/faq/Attributes';
+import Realm from './sub-components/faq/Realm'; 
+import PVP from './sub-components/faq/PVP';
+import Controls from './sub-components/faq/Controls';
+import Hardcore from './sub-components/faq/Hardcore';
+import Trading from './sub-components/faq/Trading';
+import Ubers from './sub-components/faq/Ubers';
+import Parties from './sub-components/faq/Parties';
+import D2R from './sub-components/faq/D2R';
+import Patches from './sub-components/faq/Patches';
 
 class Faq extends Component {
     constructor() {

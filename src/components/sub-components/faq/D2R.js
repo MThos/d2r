@@ -29,7 +29,7 @@ class D2R extends Component {
                     <div className="basics-header">WHAT IS D2 RESURRECTED?</div>
                     <div className="basics-body">
                         <p>Players have been asking for a re-make of Diablo 2 for a long time. Blizzard finally announced this game in 2021.</p>
-                        <p>They are keeping the game quests/items/story authenticate. Most of the changes they are making are graphics, sound and quality of life.</p>
+                        <p>They are keeping the game quests / items / story authenticate. Most of the changes they are making are graphics, sound and quality of life. They say this could change in upcoming patches.</p>
                     </div>
                 </div>
                 <div className="basics">

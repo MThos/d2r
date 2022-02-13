@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import ExpAbove25 from '../../json/exp-above-25.js';
-import ExpBelow25 from '../../json/exp-below-25.js';
-import ExpPerLevel50 from '../../json/exp-per-level-50.js';
-import ExpPerLevel99 from '../../json/exp-per-level-99.js';
+import ExpAbove25 from '../../../json/faq/exp-above-25';
+import ExpBelow25 from '../../../json/faq/exp-below-25';
+import ExpPerLevel50 from '../../../json/faq/exp-per-level-50';
+import ExpPerLevel99 from '../../../json/faq/exp-per-level-99';
 
 class Experience extends Component {
     render() {

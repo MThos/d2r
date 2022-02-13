@@ -1,0 +1,116 @@
+area {
+  display: block;
+  cursor: pointer;
+}
+
+.classes {
+  background: #101010;
+  border: 4px solid black;
+  margin-bottom: 10px;
+  width: 1150px;  
+}
+
+.classes-body {
+  background: #101010;
+  font-size: 0.9rem;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.classes-body a {
+  background: rgb(245, 32, 32);
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 2px 5px;
+}
+
+.classes-header {
+  background: rgb(245, 32, 32);
+  border-bottom: 4px solid black;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 7px 10px 5px 10px;
+}
+
+.classes-icon {
+  border: 4px solid #121212;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+#classes-img {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  -webkit-filter: contrast(110%) brightness(110%);
+  filter: contrast(110%) brightness(110%);
+}
+
+.classes-important {
+  background: rgb(245, 32, 32);
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 2px 5px;
+}
+
+.classes-link {
+  text-decoration: none;
+  padding: 0 5px 0 5px;
+}
+
+#classes-select {
+  background: rgb(245, 32, 32);
+  border: 4px solid black;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 20px auto 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  width: 300px;
+}
+
+#classes-selection {
+  margin-top: 50px;
+}
+
+#classes-nav {
+  font-size: 0.8rem;
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+
+.chart {
+  border-collapse: collapse;
+  text-align: center;
+  width: 45%;
+}
+
+.chart-lg {
+  margin: 0 auto;
+  width: 85% !important;
+}
+
+.chart td {
+  border: 1px solid black;
+  color: white;
+  padding: 5px 20px;
+}
+
+.chart th {
+  background: black;
+  color: white;
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
+.chart tr {
+  border: 2px solid black;
+}
+
+.chart tr:nth-child(odd) {
+  background: #202020;
+}

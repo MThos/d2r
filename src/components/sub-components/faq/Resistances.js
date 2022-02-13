@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ResistAbsorb from '../../json/resist-absorb';
+import ResistAbsorb from '../../../json/faq/resist-absorb';
 
 class Resistances extends Component {
     render() {
